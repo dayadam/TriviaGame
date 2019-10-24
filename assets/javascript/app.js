@@ -1,4 +1,4 @@
-let time = 60;
+let time = 120;
 let intervalId = setInterval(count, 1000);
 
 function count() {

@@ -1,0 +1,15 @@
+.last-button {
+    display: block;
+    /*margin: 0 auto;*/
+}
+
+.row {
+    background: rosybrown;
+    text-align: center;
+    align-content: center;
+
+}
+
+h1 {
+    text-align: center;
+}
