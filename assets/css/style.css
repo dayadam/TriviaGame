@@ -6,3 +6,7 @@
 label {
     font-size: 22px;
 }
+
+.timer {
+    display: block;
+}
