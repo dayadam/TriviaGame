@@ -1,3 +1,5 @@
+$(document).ready(function() {
+
 let time = 120;
 let intervalId = setInterval(count, 1000);
 
@@ -9,4 +11,8 @@ function count() {
     }
 };
 
+$(".last-button").click(function(){
+    event.preventDefault();
+  });
+});
  

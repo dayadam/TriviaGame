@@ -21,81 +21,246 @@
 </head>
 
 <body>
-    <div class="container">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+
+
+    <div class="container text-center">
         <div class="row">
-            <h1 class="text-center">Trivia!</h1>
+            <h1 class="col">Trivia!</h1>
         </div>
 
         <div class="row">
-            <h2 class="timer text-center"><span class="seconds">120</span> Seconds Left</h2>
+            <h2 class="timer col"><span class="seconds">120</span> Seconds Left</h2>
         </div>
 
         <div class="row">
             <form class="col">
-                <h2>WHO DAT IS!?</h2>
+                <h2>1. "Survivor's" first season in Borneo is a classic season for many reasons. One particularly famous
+                    moment came during the final tribal council when which juror accused Kelly of being a rat during her
+                    jury speech?</h2>
                 <div class="form-check form-check-inline">
                     <input type="radio" class="form-check-input" name="exampleRadios" id="exampleCheck1"
                         value="option1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    <label class="form-check-label" for="exampleCheck1">Jenna</label>
                 </div>
                 <div class="form-check form-check-inline">
                     <input type="radio" class="form-check-input" name="exampleRadios" id="exampleCheck2"
                         value="option2">
-                    <label class="form-check-label" for="exampleCheck2">No, check me out</label>
+                    <label class="form-check-label" for="exampleCheck2">Gretchen</label>
                 </div>
                 <div class="form-check form-check-inline">
                     <input type="radio" class="form-check-input" name="exampleRadios" id="exampleCheck3"
                         value="option3">
-                    <label class="form-check-label" for="exampleCheck3">me too</label>
+                    <label class="form-check-label" for="exampleCheck3">Colleen</label>
                 </div>
                 <div class="form-check form-check-inline">
                     <input type="radio" class="form-check-input" name="exampleRadios" id="exampleCheck4"
                         value="option4">
-                    <label class="form-check-label" for="exampleCheck4">fourth</label>
+                    <label class="form-check-label" for="exampleCheck4">Sue</label>
                 </div>
-                <h2>Here are some quejions</h2>
+                <h2>2. Survivor's first medical evacuation happened in "Australian Outback" when Michael Skupin had to
+                    be evacuated on Day 17 after what happened?</h2>
                 <div class="form-check form-check-inline">
-                    <input type="radio" class="form-check-input" name="question-two"
-                        value="option1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input type="radio" class="form-check-input" name="question-two"
-                        value="option2">
-                    <label class="form-check-label" for="exampleCheck2">No, check me out</label>
+                    <input type="radio" class="form-check-input" name="question-two" value="option1">
+                    <label class="form-check-label" for="exampleCheck1">He fell into the fire</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input type="radio" class="form-check-input" name="question-two"
-                        value="option3">
-                    <label class="form-check-label" for="exampleCheck3">me too</label>
+                    <input type="radio" class="form-check-input" name="question-two" value="option2">
+                    <label class="form-check-label" for="exampleCheck2">He developed a serious infection</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input type="radio" class="form-check-input" name="question-two"
-                        value="option4">
-                    <label class="form-check-label" for="exampleCheck4">fourth</label>
-                </div>
-                <h2>Here are some quejions</h2>
-                <div class="form-check form-check-inline">
-                    <input type="radio" class="form-check-input" name="question-three"
-                        value="option1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    <input type="radio" class="form-check-input" name="question-two" value="option3">
+                    <label class="form-check-label" for="exampleCheck3">He fell out of a tree</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input type="radio" class="form-check-input" name="question-three"
-                        value="option2">
-                    <label class="form-check-label" for="exampleCheck2">No, check me out</label>
+                    <input type="radio" class="form-check-input" name="question-two" value="option4">
+                    <label class="form-check-label" for="exampleCheck4">He cut his finger off with a machete</label>
+                </div>
+                <h2>3. One of the most controversial moments in "Survivor" history occurred at the final four in
+                    "Marquesas". The initial vote was a deadlock tie with two votes each for Kathy and Neleh. How was
+                    this tie breaker solved?</h2>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="question-three" value="option1">
+                    <label class="form-check-label" for="exampleCheck1">By counting the previous votes each contestant
+                        received</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input type="radio" class="form-check-input" name="question-three"
-                        value="option3">
-                    <label class="form-check-label" for="exampleCheck3">me too</label>
+                    <input type="radio" class="form-check-input" name="question-three" value="option2">
+                    <label class="form-check-label" for="exampleCheck2">A firemaking challenge</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input type="radio" class="form-check-input" name="question-three"
-                        value="option4">
-                    <label class="form-check-label" for="exampleCheck4">fourth</label>
+                    <input type="radio" class="form-check-input" name="question-three" value="option3">
+                    <label class="form-check-label" for="exampleCheck3">By drawing rocks</label>
                 </div>
-                <button type="submit" class="btn btn-primary last-button">Submit</button>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="question-three" value="option4">
+                    <label class="form-check-label" for="exampleCheck4">A nature quiz</label>
+                </div>
+                <h2>4. One controversial moment occurred in "Pearl Islands" when the first six players to be voted off
+                    came back to fight for a chance to return to the game. What were these players called?</h2>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="question-three" value="option1">
+                    <label class="form-check-label" for="exampleCheck1">They had no name</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="question-three" value="option2">
+                    <label class="form-check-label" for="exampleCheck2">Outcasts</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="question-three" value="option3">
+                    <label class="form-check-label" for="exampleCheck3">Ghosts</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="question-three" value="option4">
+                    <label class="form-check-label" for="exampleCheck4">Castaways</label>
+                </div>
+                <h2>5. In which season did one tribe "conquer" the other tribe by winning every immunity challenge until
+                    the other tribe was down to one member?</h2>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="question-three" value="option1">
+                    <label class="form-check-label" for="exampleCheck1">Palau</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="question-three" value="option2">
+                    <label class="form-check-label" for="exampleCheck2">Gabon</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="question-three" value="option3">
+                    <label class="form-check-label" for="exampleCheck3">Vanuatu</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="question-three" value="option4">
+                    <label class="form-check-label" for="exampleCheck4">Fiji</label>
+                </div>
+                <h2>6. Survivor's fifteenth season, "China", contained a move that many fans call the dumbest move in
+                    "Survivor" history. Which contestant was it that got voted out while in possession of two hidden
+                    immunity idols?</h2>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="question-three" value="option1">
+                    <label class="form-check-label" for="exampleCheck1">Peih-Gee</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="question-three" value="option2">
+                    <label class="form-check-label" for="exampleCheck2">Todd</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="question-three" value="option3">
+                    <label class="form-check-label" for="exampleCheck3">James</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="question-three" value="option4">
+                    <label class="form-check-label" for="exampleCheck4">Denise</label>
+                </div>
+                <h2>7. Another move that is frequently mentioned as the dumbest of all time occurred in "Micronesia"
+                    when Erik gave his individual immunity to Natalie and was then promptly voted off by the all-female
+                    alliance. What was the name of this alliance?</h2>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="question-three" value="option1">
+                    <label class="form-check-label" for="exampleCheck1">Yasur Alliance</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="question-three" value="option2">
+                    <label class="form-check-label" for="exampleCheck2">Witches' Coven</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="question-three" value="option3">
+                    <label class="form-check-label" for="exampleCheck3">The Family</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="question-three" value="option4">
+                    <label class="form-check-label" for="exampleCheck4">Black Widow Brigade</label>
+                </div>
+                <h2>8. "Heroes vs. Villains" also featured several iconic moments in the show's history. It also
+                    featured the first two-time winner. Which player won this season, her second win overall?</h2>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="question-three" value="option1">
+                    <label class="form-check-label" for="exampleCheck1">Sandra</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="question-three" value="option2">
+                    <label class="form-check-label" for="exampleCheck2">Cirie</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="question-three" value="option3">
+                    <label class="form-check-label" for="exampleCheck3">Parvati</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="question-three" value="option4">
+                    <label class="form-check-label" for="exampleCheck4">Jerri</label>
+                </div>
+                <h2>9. "Kaoh Rong" was a season rife with medical emergencies. In the fourth episode during a gruelling
+                    challenge in the hot sun, three people fell ill. Which of the three had to be evacuated?</h2>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="question-three" value="option1">
+                    <label class="form-check-label" for="exampleCheck1">None of them</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="question-three" value="option2">
+                    <label class="form-check-label" for="exampleCheck2">Caleb</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="question-three" value="option3">
+                    <label class="form-check-label" for="exampleCheck3">Cydney</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="question-three" value="option4">
+                    <label class="form-check-label" for="exampleCheck4">Debbie</label>
+                </div>
+                <h2>10. There have been many tied votes on "Survivor" but "Ghost Island" saw the very first tied vote
+                    for the winner at the final tribal council when Wendell and Dominic both received five votes. How
+                    was this tie resolved?</h2>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="question-three" value="option1">
+                    <label class="form-check-label" for="exampleCheck1">The third place finisher cast the deciding
+                        vote</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="question-three" value="option2">
+                    <label class="form-check-label" for="exampleCheck2">The jury</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="question-three" value="option3">
+                    <label class="form-check-label" for="exampleCheck3">Both men were declared the winner</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="question-three" value="option4">
+                    <label class="form-check-label" for="exampleCheck4">A fire making challenge occured</label>
+                </div>
+                <button type="submit" class="btn btn-primary last-button mx-auto">Submit</button>
             </form>
         </div>
 
