@@ -3,28 +3,40 @@ $(document).ready(function () {
     $(".exam").hide();
     $(".results-container").hide();
 
-    let time = 120;
-    let intervalId = setInterval(count, 1000);
+    let time;
+    let intervalId;
 
-    function count() {
-        time--;
-        $(".seconds").text(time);
-        if (time === 0) {
-            clearInterval(intervalId);
-        };
-    };
-
-    function reset() {
+    function startClock() {
         time = 120;
         $(".seconds").text(time);
         intervalId = setInterval(count, 1000);
     };
 
-    function startExam() {
+    function stopClock() {
         clearInterval(intervalId);
+        //intervalId = null;
+    };
+
+/*     function reset() {
+        if (intervalId == true) {
+            stopClock();
+        };
+        startClock();
+    }; */
+
+    function count() {
+        time--;
+        //console.log(time)
+        $(".seconds").text(time);
+        if (time === 0) {
+            endExam();
+        };
+    };
+
+    function startExam() {
         $(".exam").show();
         $(".start-container").hide();
-        reset();
+        startClock();
     };
 
     $(".start-btn").click(startExam);
@@ -36,7 +48,6 @@ $(document).ready(function () {
     const questionNumbers = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
 
     function submitAnswers() {
-        event.preventDefault();
         for (i = 0; i < answerKey.length; i++) {
             let correctAnswerSelected = $(answerKey[i]).is(":checked");
             let questionAnswered = $('[name="question-' + questionNumbers[i] + '"]').is(":checked");
@@ -52,7 +63,25 @@ $(document).ready(function () {
         };
     };
 
-    $(".last-button").click(submitAnswers);
+    function displayResults() {
+        $(".correct-answers").text(correctAnswers);
+        $(".incorrect-answers").text(incorrectAnswers);
+        $(".unanswered-questions").text(unansweredQuestions);
+    };
+
+    function showEndingPage() {
+        $(".exam").hide();
+        $(".results-container").show();
+    };
+
+    function endExam() {
+        stopClock();
+        submitAnswers();
+        displayResults();
+        showEndingPage();
+    };
+
+    $(".last-button").click(endExam);
 
 });
 
