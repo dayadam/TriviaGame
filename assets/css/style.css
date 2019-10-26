@@ -1,12 +1,7 @@
-.last-button {
-    display: block;
-    /*margin: 0 auto;*/
-}
-
 label {
     font-size: 22px;
 }
 
-.timer {
-    display: block;
+.start-container, html, body, .start-row, .start-col, .results-container, .results-row {
+    height: 100%;
 }
