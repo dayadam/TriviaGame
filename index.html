@@ -24,7 +24,8 @@
     <div class="container start-container">
         <div class="row start-row">
             <div class="col text-center my-auto">
-                <button type="button" class="btn btn-primary start-btn">Start</button>
+                <img src="assets/images/jeff.jpg" alt="Jeff Probst" class="jeff" />
+                <button type="button" class="btn btn-success start-btn w-50">Start Suvivor trivia!</button>
             </div>
         </div>
     </div>
@@ -32,6 +33,7 @@
     <div class="results-container container">
         <div class="row results-row">
             <div class="text-center col my-auto">
+                <img src="assets/images/wardog.jpg" alt="The Wardog" class="wardog" />
                 <h2>Incredible Job!</h2>
                 <h3>Correct answers: <span class="correct-answers"></span></h3>
                 <h3>Incorrect answers: <span class="incorrect-answers"></span></h3>
@@ -41,10 +43,10 @@
     </div>
 
     <div class="exam">
-        <nav class="navbar sticky-top navbar-light bg-light">
+        <nav class="navbar sticky-top navbar-light">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item active mx-auto">
-                    <h1>Trivia!</h1> <span class="sr-only">(current)</span>
+                    <h1>Survivor Trivia!</h1> <span class="sr-only">(current)</span>
                 </li>
                 <li class="nav-item">
                     <h2 class="timer"><span class="seconds">120</span> Seconds Left</h2>
@@ -52,10 +54,12 @@
             </ul>
         </nav>
 
+
         <div class="container text-center">
             <div class="row">
-                <form class="col">
-                    <h2>1. "Survivor's" first season in Borneo is a classic season for many reasons. One particularly
+                <form class="col question-container">
+                    <h2 class="question-heading">1. "Survivor's" first season in Borneo is a classic season for many
+                        reasons. One particularly
                         famous
                         moment came during the final tribal council when which juror accused Kelly of being a rat during
                         her jury speech?</h2>
@@ -75,7 +79,8 @@
                         <input type="radio" class="form-check-input" name="question-one" id="q1o4" value="option4">
                         <label class="form-check-label" for="q1o4">Sue</label>
                     </div>
-                    <h2>2. Survivor's first medical evacuation happened in "Australian Outback" when Michael Skupin had
+                    <h2 class="question-heading">2. Survivor's first medical evacuation happened in "Australian Outback"
+                        when Michael Skupin had
                         to be evacuated on Day 17 after what happened?</h2>
                     <div class="form-check form-check-inline">
                         <input type="radio" class="form-check-input" name="question-two" value="option1" id="q2o1">
@@ -93,7 +98,8 @@
                         <input type="radio" class="form-check-input" name="question-two" value="option4" id="q2o4">
                         <label class="form-check-label" for="q2o4">He cut his finger off with a machete</label>
                     </div>
-                    <h2>3. One of the most controversial moments in "Survivor" history occurred at the final four in
+                    <h2 class="question-heading">3. One of the most controversial moments in "Survivor" history occurred
+                        at the final four in
                         "Marquesas". The initial vote was a deadlock tie with two votes each for Kathy and Neleh. How
                         was
                         this tie breaker solved?</h2>
@@ -114,7 +120,8 @@
                         <input type="radio" class="form-check-input" name="question-three" value="option4" id="q3o4">
                         <label class="form-check-label" for="q3o4">A nature quiz</label>
                     </div>
-                    <h2>4. One controversial moment occurred in "Pearl Islands" when the first six players to be voted
+                    <h2 class="question-heading">4. One controversial moment occurred in "Pearl Islands" when the first
+                        six players to be voted
                         off
                         came back to fight for a chance to return to the game. What were these players called?</h2>
                     <div class="form-check form-check-inline">
@@ -133,7 +140,8 @@
                         <input type="radio" class="form-check-input" name="question-four" value="option4" id="q4o4">
                         <label class="form-check-label" for="q4o4">Castaways</label>
                     </div>
-                    <h2>5. In which season did one tribe "conquer" the other tribe by winning every immunity challenge
+                    <h2 class="question-heading">5. In which season did one tribe "conquer" the other tribe by winning
+                        every immunity challenge
                         until
                         the other tribe was down to one member?</h2>
                     <div class="form-check form-check-inline">
@@ -152,7 +160,8 @@
                         <input type="radio" class="form-check-input" name="question-five" value="option4" id="q5o4">
                         <label class="form-check-label" for="q5o4">Fiji</label>
                     </div>
-                    <h2>6. Survivor's fifteenth season, "China", contained a move that many fans call the dumbest move
+                    <h2 class="question-heading">6. Survivor's fifteenth season, "China", contained a move that many
+                        fans call the dumbest move
                         in
                         "Survivor" history. Which contestant was it that got voted out while in possession of two hidden
                         immunity idols?</h2>
@@ -172,7 +181,8 @@
                         <input type="radio" class="form-check-input" name="question-six" value="option4" id="q6o4">
                         <label class="form-check-label" for="q6o4">Denise</label>
                     </div>
-                    <h2>7. Another move that is frequently mentioned as the dumbest of all time occurred in "Micronesia"
+                    <h2 class="question-heading">7. Another move that is frequently mentioned as the dumbest of all time
+                        occurred in "Micronesia"
                         when Erik gave his individual immunity to Natalie and was then promptly voted off by the
                         all-female
                         alliance. What was the name of this alliance?</h2>
@@ -192,7 +202,8 @@
                         <input type="radio" class="form-check-input" name="question-seven" value="option4" id="q7o4">
                         <label class="form-check-label" for="q7o4">Black Widow Brigade</label>
                     </div>
-                    <h2>8. "Heroes vs. Villains" also featured several iconic moments in the show's history. It also
+                    <h2 class="question-heading">8. "Heroes vs. Villains" also featured several iconic moments in the
+                        show's history. It also
                         featured the first two-time winner. Which player won this season, her second win overall?</h2>
                     <div class="form-check form-check-inline">
                         <input type="radio" class="form-check-input" name="question-eight" value="option1" id="q8o1">
@@ -210,7 +221,8 @@
                         <input type="radio" class="form-check-input" name="question-eight" value="option4" id="q8o4">
                         <label class="form-check-label" for="q8o4">Jerri</label>
                     </div>
-                    <h2>9. "Kaoh Rong" was a season rife with medical emergencies. In the fourth episode during a
+                    <h2 class="question-heading">9. "Kaoh Rong" was a season rife with medical emergencies. In the
+                        fourth episode during a
                         gruelling
                         challenge in the hot sun, three people fell ill. Which of the three had to be evacuated?</h2>
                     <div class="form-check form-check-inline">
@@ -229,7 +241,8 @@
                         <input type="radio" class="form-check-input" name="question-nine" value="option4" id="q9o4">
                         <label class="form-check-label" for="q9o4">Debbie</label>
                     </div>
-                    <h2>10. There have been many tied votes on "Survivor" but "Ghost Island" saw the very first tied
+                    <h2 class="question-heading">10. There have been many tied votes on "Survivor" but "Ghost Island"
+                        saw the very first tied
                         vote
                         for the winner at the final tribal council when Wendell and Dominic both received five votes.
                         How was this tie resolved?</h2>
@@ -251,8 +264,8 @@
                         <label class="form-check-label" for="q10o4">A fire making challenge occured</label>
                     </div>
                     <div class="footer-container">
-                            <footer class="fixed-bottom bg-light"><button type="button"
-                                    class="btn btn-primary last-button mx-auto">Submit</button></footer>
+                        <footer class="fixed-bottom"><button type="button"
+                                class="btn btn-success last-button mx-auto">Submit answers</button></footer>
                     </div>
                 </form>
             </div>
