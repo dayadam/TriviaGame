@@ -8,45 +8,29 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-These files can be run in an internet browser.
+These files can be run on an internet browser. For example:
+
+```
+Google Chrome
+Mozilla Firefox
+Internet Explorer
+```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+Open the index.html file in your browser of choice to run the program.
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+There are no tests for this program.
 
 ### Break down into end to end tests
 
-Explain what these tests test and why
-
-```
-Give an example
-```
+There are no tests for this program.
 
 ### And coding style tests
 
-Explain what these tests test and why
-
-```
-Give an example
-```
+There are no tests for this program.
 
 ## Deployment
 
@@ -54,30 +38,25 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Bootstrap](https://getbootstrap.com/) - The css framework used
+* [jQuery](https://jquery.com/) - JavaScript library for DOM manipulation
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+There are no contributions to this project. We are not accepting contributions. 
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We have no versioning. For the versions available, see the [tags on this repository](https://github.com/dayadam/TriviaGame). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Adam Day** - *Initial work* - [Adam Day](https://github.com/dayadam)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project has no license.
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Questions were taken from Joepetz's "Classic Moments in 'Survivor' History" trivia quiz on [funtrivia.com](https://www.funtrivia.com/trivia-quiz/Television/Classic-Moments-in-Survivor-History-398090.html)
