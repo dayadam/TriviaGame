@@ -38,7 +38,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Bootstrap](https://getbootstrap.com/) - The css framework used
+* [Bootstrap](https://getbootstrap.com/) - The CSS framework used
 * [jQuery](https://jquery.com/) - JavaScript library for DOM manipulation
 
 ## Contributing
@@ -47,7 +47,7 @@ There are no contributions to this project. We are not accepting contributions.
 
 ## Versioning
 
-We have no versioning. For the versions available, see the [tags on this repository](https://github.com/dayadam/TriviaGame). 
+We have no versioning.
 
 ## Authors
 
